@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Entropic's Films</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/spinner.css" rel="stylesheet">
+</head>
+
+<body ng-app="app" ng-controller="controller">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-inner">
+                <a ng-click="showsearch = !showsearch;" type="button" class="btn btn-cust"><span class="glyphicon glyphicon-search"></span></a>
+                <a class="navbar-brand" href="#" style="color: #fff;">TheEntropics's Films</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="padding-top: 51px;" ng-click="showsearch = false;">
+
+        <div ng-show="films.length !== 0">
+            <div class="row">
+                <span class="" ng-repeat="film in films | filter : searchFilter | orderBy : ['language', 'title', 'filename']">
+                    <div class="film">
+                        <a href='{{film.path}}'>
+                            <div class='poster'>
+                                <div class='image' back-img="{{film.image}}"></div>
+                                <div class='info'>
+                                  <img class='play' src='play.svg'></img>
+                                  <span class='rating' ng-if="film.rating >= 0">{{film.rating}} / 10</span>
+                                  <img ng-src='{{"flags/" + film.language + ".png"}}' class='flag' ng-if="film.language !== ''"></img>
+                                </div>
+                            </div>
+                        </a>
+                        <b class='title'>{{film.title !== "" ? film.title : film.filename}}</b>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="loadingview" ng-show="films.length === 0" style="padding-top: 51px;">
+            <div class="spinner">
+                <svg class="svg" width=200 height=200>
+                  <circle cx=100 cy=100 r=50 />
+                </svg>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fixedContainer" style="padding-top: 60px;" ng-show="films.length !== 0">
+        <div class="input-group" ng-show="showsearch">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+            <input type="text" class="form-control" placeholder="Search..." ng-model="search" aria-describedby="basic-addon1"></input>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

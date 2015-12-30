@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   x="0px"
+   y="0px"
+   width="96px"
+   height="96px"
+   viewBox="0 0 96 96"
+   enable-background="new 0 0 96 96"
+   xml:space="preserve"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="play2.svg"><metadata
+   id="metadata17"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs15">
+	
+
+		
+		
+	
+			
+		</defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1410"
+   inkscape:window-height="931"
+   id="namedview13"
+   showgrid="false"
+   inkscape:zoom="3.7336918"
+   inkscape:cx="-35.180642"
+   inkscape:cy="78.083574"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg2" />
+<path
+   style="fill:#ffffff;fill-opacity:1;stroke:none"
+   d="M 48,0 C 21.490331,0 0,21.490332 0,48 0,74.509668 21.490331,96 48,96 74.509669,96 96,74.509668 96,48 96,21.490332 74.509669,0 48,0 z m 0,5.09375 C 71.699204,5.09375 90.90625,24.300798 90.90625,48 90.90625,71.699203 71.699204,90.90625 48,90.90625 24.300796,90.90625 5.09375,71.699203 5.09375,48 5.09375,24.300798 24.300796,5.09375 48,5.09375 z"
+   id="path3961-1"
+   inkscape:connector-curvature="0" /><polygon
+   points="36.229,66.074 67.111,48.244 36.229,30.413 "
+   id="polygon7"
+   style="fill:#ffffff;fill-opacity:1"
+   transform="matrix(1.2948476,0,0,1.2948476,-14.152684,-14.157865)" />
+</svg>
