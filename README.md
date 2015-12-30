@@ -1,6 +1,6 @@
 # serben-films
 
-View your film collection using our library.
+A beautiful way to see your film library.
 
 Simple to install, works out of the box, looks awesome.
 
