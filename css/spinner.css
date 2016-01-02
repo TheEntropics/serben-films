@@ -7,7 +7,7 @@
 
 circle {
   fill: transparent;
-  stroke: rgb(45,127,223);
+  stroke: rgb(61,150,255);
   stroke-width: 4;
   stroke-linecap: round;
   stroke-dasharray: 0, 301.59289;
@@ -80,11 +80,11 @@ circle {
 }
 @-webkit-keyframes stroke-color {
   from {
-    stroke: rgb(45,127,223);
+    stroke: rgb(61,150,255);
   }
 }
 @keyframes stroke-color {
   from {
-    stroke: rgb(45,127,223);
+    stroke: rgb(61,150,255);
   }
 }

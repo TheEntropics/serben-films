@@ -62,8 +62,8 @@ body {
 }
 
 .container .film .poster:hover .image {
-    border: 2px solid #292929;
-    box-shadow: 0px 0px 10px #3D3D3D;
+    border: 2px solid rgba(45,127,223,1);
+    box-shadow: 0px 0px 8px black;
 }
 
 .container .film .poster:hover .info {
@@ -81,14 +81,32 @@ body {
 }
 
 .container .film .info {
-  background-color: rgba(45,127,223,0.5);
-  position: absolute;
-  display: none;
-  top: 2px;
-  bottom: 2px;
-  left: 2px;
-  width: 192px;
-  border-radius: 3px;
+    position: absolute;
+    display: none;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    width: 192px;
+    border-radius: 3px;
+}
+
+.container .film .info-background {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    width: 192px;
+    border-radius: 3px;
+
+    -webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.container .film .poster:hover .info-background {
+    background-color: rgba(45,127,223,0.5);
 }
 
 /* unvisited link */
@@ -145,21 +163,21 @@ a:active {
 }
 
 .btn-cust {
-  position: relative;
-  float: right;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid #333;
-  border-radius: 4px;
-  color: white;
-  margin-right: 15px;
-  margin-top: 6px;
-  padding: 9px 10px;
+    position: relative;
+    float: right;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: white;
+    margin-right: 15px;
+    margin-top: 6px;
+    padding: 9px 10px;
 }
 
 .btn-cust:hover {
-  color:white;
-  background-color: #333;
+    color:white;
+    background-color: #333;
 }
 
 ::-webkit-scrollbar {
