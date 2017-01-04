@@ -25,7 +25,7 @@ Specify where the films are located (`root`) and what URL to use when listing th
 
 ## Customization
 In order to set a cover image for a film, just place the desired image in the same folder where the video file is, named as `cover.png` (`cover.jpg`).
-The title of a film is based on its filename, but it can be set using a `cover.json` file. This file can be placed in every directory under your `root`. All subdirectories will use the closest `cover.json` file.
+The title of a film is based on its filename, but it can be set using a `cover.json` file. This file can be placed in any directory under your `root`. All subdirectories will use the closest `cover.json` file.
 
 `cover.json` should have the following syntax:
 
